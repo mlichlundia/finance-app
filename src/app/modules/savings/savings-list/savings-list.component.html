@@ -1,1 +1,13 @@
-<p>savings-list works!</p>
+<header>
+  <h1>Savings</h1>
+  <app-small-button>
+    <span text>Add</span>
+    <span icon>+</span>
+  </app-small-button>
+</header>
+<div class="savings-list">
+  <app-expense-tile
+    *ngFor="let item of savingsList"
+    [expense]="item"
+  ></app-expense-tile>
+</div>
