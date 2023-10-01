@@ -1,0 +1,12 @@
+@use 'src/styles/styles' as *;
+
+button {
+  display: flex;
+  align-items: center;
+  gap: rem(4);
+  padding: rem(6) rem(12);
+  border-radius: rem(24);
+  background: color(accent-900);
+  color: color("white");
+  font-weight: 500;
+}

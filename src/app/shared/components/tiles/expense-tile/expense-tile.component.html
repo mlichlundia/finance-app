@@ -1,0 +1,13 @@
+<div class="image"></div>
+<div class="content">
+  <h3>{{expense.name}}</h3>
+  <div class="amount">
+    <span>{{expense.currentAmount | number}}$</span>
+    <span *ngIf="expense.target" class="amount__target"> / {{expense.target | number}}$</span>
+  </div>
+</div>
+<app-progress-bar
+  *ngIf="expense.target"
+  [target]="expense.target"
+  [progress]="expense.currentAmount"
+></app-progress-bar>

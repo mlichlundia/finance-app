@@ -1,0 +1,14 @@
+@use 'src/styles/styles' as *;
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: rem(32);
+}
+
+.savings-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: rem(8);
+}
