@@ -1,0 +1,28 @@
+$font-base: 16;
+$fonts: (64, 32, 22, 20, 18, 16, 14, 12, 10);
+
+$colors: (
+  "white": #fff,
+  "black": #000,
+  neutral-600: #AEAEB2,
+  neutral-700: #7F7F84,
+  neutral-800: #6C6C70,
+  neutral-900: #353538,
+  accent-900: #007AFF,
+  red-900: #FF3B30,
+  orange-900: #FF9500,
+  yellow-900: #FC0,
+  green-900: #34C759,
+  blue-900: #5AC8FA,
+  indigo-900: #5856D6,
+  purple-900: #AF52DE,
+);
+
+$breakpoints: (
+  xs: 482px,
+  sm: 640px,
+  md: 992px,
+  lg: 1280px,
+  xl: 1680px,
+  xxl: 1920px,
+);

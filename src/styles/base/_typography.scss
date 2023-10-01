@@ -1,0 +1,17 @@
+@use '../utils/functions' as *;
+
+h1, h2, h3, p {
+  line-height: 120%;
+}
+
+h1 {
+  font-size: font(32);
+}
+
+h2 {
+  font-size: font(22);
+}
+
+h3 {
+  font-size: font(16);
+}

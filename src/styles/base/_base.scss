@@ -1,0 +1,27 @@
+@use "../utils/_mixins.scss" as *;
+@use "../utils/_functions.scss" as *;
+
+html {
+  @include generate-fonts;
+  @include generate-colors;
+  @include generate-breakpoints;
+  @include screen-width;
+}
+
+body {
+  font-family: "SF UI Display", Arial, sans-serif;
+}
+
+body.prevent-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+* {
+  color: color("black");
+}
+
+::selection {
+  color: color("white");
+  background: color(accent-900);
+}
