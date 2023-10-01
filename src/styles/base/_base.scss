@@ -10,6 +10,7 @@ html {
 
 body {
   font-family: "SF UI Display", Arial, sans-serif;
+  background: color(neutral-100);
 }
 
 body.prevent-scroll {
@@ -17,8 +18,12 @@ body.prevent-scroll {
   height: 100vh;
 }
 
-* {
-  color: color("black");
+button, a {
+  transition: .25s;
+
+  &:hover {
+    opacity: .9;
+  }
 }
 
 ::selection {
